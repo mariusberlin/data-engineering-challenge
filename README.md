@@ -43,3 +43,5 @@ kafka-python
   - producer_reports (to publish the medical reports in the topic "reports" to simulate a data stream)
 - All commands for the command line can be found in the txt.file: kafka commands
 
+```
+
