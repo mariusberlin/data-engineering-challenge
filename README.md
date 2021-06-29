@@ -34,6 +34,8 @@ kafka-python
 - create topic medicalreports with desired amount of paritions (two in this example)
 - run the scripts:
   - consumer_reports_producer_reports (run them as many times as you have paritions to ensure parallelisation)
+  - cosumer_results (to see if results are correctly writen in topic "results")
+  - producer_reports (to publish the medical reports in the topic "reports" to simulate a data stream)
 
 
 All commands can be found in the txt.file: kafka commands
