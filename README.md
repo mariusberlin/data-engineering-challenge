@@ -12,7 +12,8 @@
 ```
 python
 kafka-python
-
+kafka
+zookeeper
 ```
 
 ## Usage
