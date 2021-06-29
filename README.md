@@ -4,7 +4,7 @@
 
 1. Created two additional rules for temperatur & age
 2. Built a command line application the extract the desired value for a provided medical text (in folder command line application)
-3. Built the Apache Kafka integration for extracting the values from the medical text in topic 1 and write the results in topic 2
+3. Built the Apache Kafka integration for extracting the value "age" from the medical text in topic 1 and write the results in topic 2
 
 
 ## Requirements
