@@ -1,5 +1,5 @@
 0
-65
+67
 __consumer_offsets 13 0
 __consumer_offsets 46 0
 tuejsonresult 0 0
@@ -37,6 +37,7 @@ __consumer_offsets 37 0
 tuetopic 1 0
 __consumer_offsets 4 0
 __consumer_offsets 33 0
+reports 0 0
 __consumer_offsets 15 0
 __consumer_offsets 48 0
 __consumer_offsets 11 0
@@ -51,6 +52,7 @@ __consumer_offsets 28 0
 __consumer_offsets 7 0
 __consumer_offsets 40 0
 __consumer_offsets 3 0
+results 0 0
 __consumer_offsets 36 0
 tuetopic 0 0
 __consumer_offsets 47 0
