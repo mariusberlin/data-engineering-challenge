@@ -19,11 +19,24 @@ kafka-python
 
 ```python
 '''
-Provide model, trained model and pixel array in a Jupyter Notebook.
 
-Provide model and trained model with identical architecture.
-Provide 3D pixel_array as numpy array in the same shape as the input size of the 3D model.
-Pixel_array dimensions: (depth, length, width) or (1, depth, length, width,1); depth = dimension of interactive slider.
+1. Rules:
+- established for temperature and age
+- in alignment with existing rule: prefix, suffix and exception values are defined (non exhaustive)
+
+2. Command Line Appplication
+- take two arguments (path of the medical report & the desired value) and outputs the value for that specific report
+- generic example: python medicalreport_cla.py "medicalreport_path.txt" "value"
+- specific example: python medicalreport_cla.py "./medreport1.txt" "temperature" or python medicalreport_cla.py "./medreport2.txt" "age"
+
+3. Kafka implementation
+- initalize zookeeper&kafka
+- create topic medicalreports with desired amount of paritions (two in this example)
+- run the scripts:
+  - consumer_reports_producer_reports (run them as many times as you have paritions to ensure parallelisation)
+
+
+All commands can be found in the txt.file: kafka commands
 '''
 
 import xai_vis.interact as interact
