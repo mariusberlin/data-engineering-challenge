@@ -28,8 +28,10 @@ kafka-python
 2. Command Line Appplication:
 
 - take two arguments (path of the medical report & the desired value) and outputs the value for that specific report
-- generic example: python medicalreport_cla.py "medicalreport_path.txt" "value"
-- specific example: python medicalreport_cla.py "./medreport1.txt" "temperature" or python medicalreport_cla.py "./medreport2.txt" "age"
+- generic example: python medicalreport_cla.py "value" "medicalreport_path.txt"
+- specific example: 
+    - python medicalreport_cla.py "temperature" "../medreports/medreport1.txt"
+    - python medicalreport_cla.py "age" "./medreports/medreport2.txt"
 
 3. Kafka Implementation:
 
