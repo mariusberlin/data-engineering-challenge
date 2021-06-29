@@ -17,8 +17,7 @@ kafka-python
 
 ## Usage
 
-```python
-'''
+```
 
 1. Rules:
 
