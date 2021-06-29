@@ -1,5 +1,4 @@
 import sys
-
 from utils.utils import *
 
 with open(sys.argv[2]) as f:

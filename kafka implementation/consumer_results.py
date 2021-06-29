@@ -4,6 +4,8 @@ import os
 import pandas as pd
 import csv
 
+#consumes the results (sanity check)
+
 consumer = KafkaConsumer(
     'results',
     bootstrap_servers=['localhost:9092'],
