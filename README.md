@@ -31,13 +31,13 @@ kafka-python
 - generic example: python medicalreport_cla.py "medicalreport_path.txt" "value"
 - specific example: python medicalreport_cla.py "./medreport1.txt" "temperature" or python medicalreport_cla.py "./medreport2.txt" "age"
 
-3. Kafka implementation:
+3. Kafka Implementation:
 
 - initalize zookeeper&kafka
-- create topic medicalreports with desired amount of paritions (two in this example)
+- create topic medicalreports with desired amount of partitions (two in this example)
 - run the scripts:
   - consumer_reports_producer_reports (parallellisation: run them as many times as you created paritions in the topic "reports" & "results", here 2 times)
-  - cosumer_results (to see if results are correctly writen in topic "results")
+  - consumer_results (to see if results are correctly writen in topic "results")
   - producer_reports (to publish the medical reports in the topic "reports" to simulate a data stream)
 
 
