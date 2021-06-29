@@ -37,7 +37,7 @@ kafka-python
 
 - initalize zookeeper&kafka
 - create topic medicalreports with desired amount of partitions (two in this example)
-- implementation is for "age"
+- implementation done for "age" value
 - run the scripts:
   - consumer_reports_producer_reports (parallellisation: run them as many times as you created paritions in the topic "reports" & "results", here 2 times)
   - consumer_results (to see if results are correctly writen in topic "results")
