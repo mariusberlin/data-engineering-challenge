@@ -10,10 +10,10 @@
 ## Requirements
 
 ```
-python
-kafka-python
 kafka
 zookeeper
+python
+kafka-python
 ```
 
 ## Usage
