@@ -12,13 +12,7 @@
 ```
 python
 kafka-python
-```
 
-## Installation
-
-
-```bash
-pip install git+https://github.com/mariusberlin/xai_visualisation
 ```
 
 ## Usage
