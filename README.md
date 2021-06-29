@@ -40,7 +40,7 @@ kafka-python
   - consumer_reports_producer_reports (parallellisation: run them as many times as you created paritions in the topic "reports" & "results", here 2 times)
   - consumer_results (to see if results are correctly writen in topic "results")
   - producer_reports (to publish the medical reports in the topic "reports" to simulate a data stream)
-- All commands for the command line can be found in the txt.file: kafka commands
+- All necessary command line commands can be found in the txt.file: kafka commands
 
 ```
 
