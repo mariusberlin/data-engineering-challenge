@@ -12,7 +12,7 @@ producer = KafkaProducer(bootstrap_servers=['localhost:9092'],
 new_list = ["temperature",":"]
 medreport_paths = []
 
-for root, dirs, files in os.walk(os.path.abspath("./medreports")) :
+for root, dirs, files in os.walk(os.path.abspath("../medreports")) :
     for file in files :
         medreport_paths.append(os.path.join(root, file))
 

@@ -1,10 +1,6 @@
 from kafka import KafkaConsumer, KafkaProducer
 import json
-from utils import *
-
-import os
-import pandas as pd
-import csv
+from utils.utils import *
 
 #create consumer, group: m-group for parallelisation with consumer 2
 consumer = KafkaConsumer(

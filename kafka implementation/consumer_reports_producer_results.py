@@ -1,11 +1,8 @@
 from kafka import KafkaConsumer, KafkaProducer
 import json
+
+sys.path.insert(1, 'C:\Users\mpull\Desktop\bakdata_coding\utils')
 from utils import *
-
-import os
-import pandas as pd
-import csv
-
 
 #1. consumes the reports from the topic reports
 #2. extracts the desired value (in this case age)

@@ -1,7 +1,4 @@
-import re
-
 import os
-from utils import *
 from kafka import KafkaProducer
 import json
 

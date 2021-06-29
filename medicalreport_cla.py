@@ -1,6 +1,6 @@
-import re
 import sys
-from utils import *
+
+from utils.utils import *
 
 with open(sys.argv[2]) as f:
     report = f.read()
