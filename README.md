@@ -1,6 +1,6 @@
 
 
-# Bakdata coding challenge
+# Coding challenge
 
 1. Created two additional rules for "temperature" & "age"
 2. Built a command line application the extract the desired value for a provided medical report (in folder command line application)
